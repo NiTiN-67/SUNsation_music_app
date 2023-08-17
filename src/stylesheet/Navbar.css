@@ -1,0 +1,39 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#logo img{
+    height: 100px;
+}
+#navbar::before{
+    content: "";
+    /* background:url(https://img.freepik.com/premium-photo/dark-street-wet-asphalt-reflections-rays_129911-2291.jpg) no-repeat center center/cover; */
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.items{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 300;
+}
+#navbar ul a{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 0px 35px;
+    color: white;
+    display: block;
+}
+.searchbox form{
+    width: 350px;
+    margin-left: 150px;
+}
